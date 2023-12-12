@@ -4,6 +4,8 @@
  */
 package halallabirintus;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author LukácsAlexandra(SZOF
@@ -29,26 +31,11 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jatek = new javax.swing.JTabbedPane();
         kezdolap = new javax.swing.JPanel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
+        start = new javax.swing.JButton();
+        kilepes = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
         stat = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jPanel5 = new javax.swing.JPanel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
@@ -56,64 +43,90 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jLabel21 = new javax.swing.JLabel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jButton20 = new javax.swing.JButton();
+        tovabb = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
         karakterek = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jButton5 = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
+        harcos = new javax.swing.JButton();
+        vadasz = new javax.swing.JButton();
+        boszorkany = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
+        jLabel12 = new javax.swing.JLabel();
         oldal1 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
         jLabel24 = new javax.swing.JLabel();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
+        gomb66 = new javax.swing.JButton();
+        gomb270 = new javax.swing.JButton();
+        jLabel33 = new javax.swing.JLabel();
         oldal66 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jTextArea3 = new javax.swing.JTextArea();
         jLabel25 = new javax.swing.JLabel();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
-        oldal270 = new javax.swing.JPanel();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        jTextArea4 = new javax.swing.JTextArea();
-        jLabel26 = new javax.swing.JLabel();
-        jButton12 = new javax.swing.JButton();
+        gomb56 = new javax.swing.JButton();
+        gomb293 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
         oldal56 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jTextArea5 = new javax.swing.JTextArea();
         jLabel27 = new javax.swing.JLabel();
-        jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
+        gomb215 = new javax.swing.JButton();
+        gomb373 = new javax.swing.JButton();
+        jLabel14 = new javax.swing.JLabel();
         oldal215 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jTextArea6 = new javax.swing.JTextArea();
-        jButton15 = new javax.swing.JButton();
+        gombVege1 = new javax.swing.JButton();
         jLabel28 = new javax.swing.JLabel();
-        oldal373 = new javax.swing.JPanel();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        jTextArea7 = new javax.swing.JTextArea();
-        jButton16 = new javax.swing.JButton();
-        jLabel29 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        oldal270 = new javax.swing.JPanel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
+        jLabel26 = new javax.swing.JLabel();
+        gomb662 = new javax.swing.JButton();
+        jLabel16 = new javax.swing.JLabel();
         oldal293 = new javax.swing.JPanel();
         jScrollPane8 = new javax.swing.JScrollPane();
         jTextArea8 = new javax.swing.JTextArea();
         jLabel30 = new javax.swing.JLabel();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
+        gomb137 = new javax.swing.JButton();
+        gomb387 = new javax.swing.JButton();
+        jLabel44 = new javax.swing.JLabel();
         oldal137 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
         jTextArea9 = new javax.swing.JTextArea();
-        jButton19 = new javax.swing.JButton();
+        gombVege3 = new javax.swing.JButton();
         jLabel31 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
         oldal387 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
         jTextArea10 = new javax.swing.JTextArea();
         jLabel32 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel42 = new javax.swing.JLabel();
+        oldal373 = new javax.swing.JPanel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTextArea7 = new javax.swing.JTextArea();
+        gombVege2 = new javax.swing.JButton();
+        jLabel29 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
 
         jLabel8.setText("jLabel8");
 
@@ -125,75 +138,115 @@ public class HalalLabirintus extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         kezdolap.setBackground(new java.awt.Color(51, 102, 255));
+        kezdolap.setLayout(null);
 
-        jButton1.setFont(new java.awt.Font("Snap ITC", 0, 14)); // NOI18N
-        jButton1.setText("Start");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        start.setBackground(new java.awt.Color(102, 102, 102));
+        start.setFont(new java.awt.Font("Snap ITC", 0, 18)); // NOI18N
+        start.setForeground(new java.awt.Color(250, 220, 250));
+        start.setText("Start");
+        start.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                startActionPerformed(evt);
             }
         });
+        kezdolap.add(start);
+        start.setBounds(150, 100, 170, 50);
 
-        jButton2.setFont(new java.awt.Font("Snap ITC", 0, 14)); // NOI18N
-        jButton2.setText("Betöltés");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
+        kilepes.setBackground(new java.awt.Color(102, 102, 102));
+        kilepes.setFont(new java.awt.Font("Snap ITC", 0, 18)); // NOI18N
+        kilepes.setForeground(new java.awt.Color(249, 222, 249));
+        kilepes.setText("Kilépés");
+        kilepes.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
+                kilepesActionPerformed(evt);
             }
         });
-
-        jButton3.setFont(new java.awt.Font("Snap ITC", 0, 14)); // NOI18N
-        jButton3.setText("Beállítások");
-
-        jButton4.setFont(new java.awt.Font("Snap ITC", 0, 14)); // NOI18N
-        jButton4.setText("Kilépés");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
+        kezdolap.add(kilepes);
+        kilepes.setBounds(150, 180, 170, 50);
 
         jLabel1.setFont(new java.awt.Font("Snap ITC", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setForeground(new java.awt.Color(249, 222, 249));
         jLabel1.setText("Halállabirintus");
+        kezdolap.add(jLabel1);
+        jLabel1.setBounds(20, 20, 153, 50);
 
-        javax.swing.GroupLayout kezdolapLayout = new javax.swing.GroupLayout(kezdolap);
-        kezdolap.setLayout(kezdolapLayout);
-        kezdolapLayout.setHorizontalGroup(
-            kezdolapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(kezdolapLayout.createSequentialGroup()
-                .addGroup(kezdolapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(kezdolapLayout.createSequentialGroup()
-                        .addGap(180, 180, 180)
-                        .addGroup(kezdolapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                    .addGroup(kezdolapLayout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addComponent(jLabel1)))
-                .addContainerGap(171, Short.MAX_VALUE))
-        );
-        kezdolapLayout.setVerticalGroup(
-            kezdolapLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(kezdolapLayout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addComponent(jLabel1)
-                .addGap(29, 29, 29)
-                .addComponent(jButton1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton4)
-                .addContainerGap(44, Short.MAX_VALUE))
-        );
+        jLabel34.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel34.setText("jLabel34");
+        kezdolap.add(jLabel34);
+        jLabel34.setBounds(0, 0, 470, 330);
 
         jatek.addTab("Kezdőlap", kezdolap);
 
         stat.setBackground(new java.awt.Color(51, 51, 255));
+        stat.setLayout(null);
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Borszorkány"));
+
+        jLabel18.setText("Szerencse:");
+
+        jLabel19.setText("Ügyesség: ");
+
+        jLabel20.setText("Életerő:");
+
+        jLabel21.setText("11");
+
+        jLabel22.setText("7");
+
+        jLabel23.setText("12");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jLabel20)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel23))
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel18)
+                            .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(jLabel21))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel18)
+                    .addComponent(jLabel21))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel19)
+                    .addComponent(jLabel22))
+                .addGap(9, 9, 9)
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel20)
+                    .addComponent(jLabel23))
+                .addContainerGap(24, Short.MAX_VALUE))
+        );
+
+        stat.add(jPanel6);
+        jPanel6.setBounds(320, 80, 101, 130);
+
+        tovabb.setBackground(new java.awt.Color(102, 102, 102));
+        tovabb.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        tovabb.setForeground(new java.awt.Color(249, 222, 249));
+        tovabb.setText("Tovább!");
+        tovabb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tovabbActionPerformed(evt);
+            }
+        });
+        stat.add(tovabb);
+        tovabb.setBounds(190, 260, 100, 30);
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Harcos"));
 
@@ -246,241 +299,146 @@ public class HalalLabirintus extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
                     .addComponent(jLabel11))
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
-        jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Vadász"));
+        stat.add(jPanel4);
+        jPanel4.setBounds(50, 80, 100, 130);
 
-        jLabel12.setText("Szerencse:");
+        jPanel7.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Vadász"));
 
-        jLabel13.setText("Ügyesség: ");
+        jLabel36.setText("Szerencse:");
 
-        jLabel14.setText("Életerő:");
+        jLabel37.setText("Ügyesség: ");
 
-        jLabel15.setText("13");
+        jLabel38.setText("Életerő:");
 
-        jLabel16.setText("8");
+        jLabel39.setText("13");
 
-        jLabel17.setText("10");
+        jLabel40.setText("8");
 
-        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
-        jPanel5.setLayout(jPanel5Layout);
-        jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        jLabel41.setText("10");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel14)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel17))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel12)
-                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel15))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel38)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel41))
+                            .addGroup(jPanel7Layout.createSequentialGroup()
+                                .addComponent(jLabel36)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel40)
+                                    .addComponent(jLabel39))))
+                        .addContainerGap(12, Short.MAX_VALUE))))
         );
-        jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGap(14, 14, 14)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel15))
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel36)
+                    .addComponent(jLabel39))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel16))
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel37)
+                    .addComponent(jLabel40))
                 .addGap(9, 9, 9)
-                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel17))
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel38)
+                    .addComponent(jLabel41))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
 
-        jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)), "Borszorkány"));
+        stat.add(jPanel7);
+        jPanel7.setBounds(190, 80, 100, 130);
 
-        jLabel18.setText("Szerencse:");
-
-        jLabel19.setText("Ügyesség: ");
-
-        jLabel20.setText("Életerő:");
-
-        jLabel21.setText("11");
-
-        jLabel22.setText("7");
-
-        jLabel23.setText("12");
-
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jLabel20)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel23))
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel18)
-                            .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel21))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel18)
-                    .addComponent(jLabel21))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel19)
-                    .addComponent(jLabel22))
-                .addGap(9, 9, 9)
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel20)
-                    .addComponent(jLabel23))
-                .addContainerGap(46, Short.MAX_VALUE))
-        );
-
-        jButton20.setText("Tovább!");
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout statLayout = new javax.swing.GroupLayout(stat);
-        stat.setLayout(statLayout);
-        statLayout.setHorizontalGroup(
-            statLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(statLayout.createSequentialGroup()
-                .addGap(52, 52, 52)
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42)
-                .addGroup(statLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(statLayout.createSequentialGroup()
-                        .addComponent(jButton20)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(statLayout.createSequentialGroup()
-                        .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 45, Short.MAX_VALUE)
-                        .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(29, 29, 29))))
-        );
-        statLayout.setVerticalGroup(
-            statLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(statLayout.createSequentialGroup()
-                .addGap(42, 42, 42)
-                .addGroup(statLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 36, Short.MAX_VALUE)
-                .addComponent(jButton20)
-                .addContainerGap())
-        );
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel35.setText("jLabel35");
+        stat.add(jLabel35);
+        jLabel35.setBounds(0, -10, 470, 340);
 
         jatek.addTab("Statisztika", stat);
 
         karakterek.setBackground(new java.awt.Color(51, 102, 255));
+        karakterek.setLayout(null);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/warrior1.png"))); // NOI18N
+        karakterek.add(jLabel3);
+        jLabel3.setBounds(50, 40, 80, 84);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/hunter1.png"))); // NOI18N
+        karakterek.add(jLabel2);
+        jLabel2.setBounds(200, 40, 77, 84);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/mage1.png"))); // NOI18N
+        karakterek.add(jLabel4);
+        jLabel4.setBounds(350, 40, 82, 81);
 
-        jButton5.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
-        jButton5.setText("Harcos");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        harcos.setBackground(new java.awt.Color(102, 102, 102));
+        harcos.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        harcos.setForeground(new java.awt.Color(249, 222, 249));
+        harcos.setText("Harcos");
+        harcos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                harcosActionPerformed(evt);
             }
         });
+        karakterek.add(harcos);
+        harcos.setBounds(50, 140, 77, 24);
 
-        jButton6.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
-        jButton6.setText("Vadász");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        vadasz.setBackground(new java.awt.Color(102, 102, 102));
+        vadasz.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        vadasz.setForeground(new java.awt.Color(249, 222, 249));
+        vadasz.setText("Vadász");
+        vadasz.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                vadaszActionPerformed(evt);
             }
         });
+        karakterek.add(vadasz);
+        vadasz.setBounds(200, 140, 77, 24);
 
-        jButton7.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
-        jButton7.setText("Boszorkány");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
+        boszorkany.setBackground(new java.awt.Color(102, 102, 102));
+        boszorkany.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        boszorkany.setForeground(new java.awt.Color(249, 222, 249));
+        boszorkany.setText("Boszorkány");
+        boszorkany.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
+                boszorkanyActionPerformed(evt);
             }
         });
+        karakterek.add(boszorkany);
+        boszorkany.setBounds(340, 140, 106, 24);
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
+        jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("FIGYELEM!!!\nA jövőben nem lehet megváltoztatni a specializációt.\n");
         jScrollPane1.setViewportView(jTextArea1);
 
-        javax.swing.GroupLayout karakterekLayout = new javax.swing.GroupLayout(karakterek);
-        karakterek.setLayout(karakterekLayout);
-        karakterekLayout.setHorizontalGroup(
-            karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(karakterekLayout.createSequentialGroup()
-                .addContainerGap(8, Short.MAX_VALUE)
-                .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel3)
-                    .addComponent(jButton5))
-                .addGap(100, 100, 100)
-                .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel2)
-                    .addComponent(jButton6))
-                .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(karakterekLayout.createSequentialGroup()
-                        .addGap(100, 100, 100)
-                        .addComponent(jLabel4))
-                    .addGroup(karakterekLayout.createSequentialGroup()
-                        .addGap(87, 87, 87)
-                        .addComponent(jButton7)))
-                .addContainerGap(12, Short.MAX_VALUE))
-            .addGroup(karakterekLayout.createSequentialGroup()
-                .addGap(67, 67, 67)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 334, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        karakterekLayout.setVerticalGroup(
-            karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, karakterekLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 84, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(karakterekLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jButton5)
-                    .addComponent(jButton7)
-                    .addComponent(jButton6))
-                .addGap(18, 18, 18)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(18, Short.MAX_VALUE))
-        );
+        karakterek.add(jScrollPane1);
+        jScrollPane1.setBounds(54, 190, 350, 120);
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel12.setText("jLabel12");
+        karakterek.add(jLabel12);
+        jLabel12.setBounds(0, 0, 470, 330);
 
         jatek.addTab("Karakter választás", karakterek);
 
         oldal1.setBackground(new java.awt.Color(51, 51, 255));
+        oldal1.setLayout(null);
 
         jTextArea2.setEditable(false);
         jTextArea2.setColumns(20);
@@ -488,61 +446,46 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jTextArea2.setText("Miután öt percet haladtál lassan az alagútban, egy kőasztalhoz érsz, amely \na bal oldali fal mellett áll. Hat doboz van rajta, egyikükre a te neved festették. \nHa kiakarod nyitni a dobozt, lapozz a 270-re. Ha inkább tovább haladsz \nészak felé, lapozz a 66-ra.");
         jScrollPane2.setViewportView(jTextArea2);
 
+        oldal1.add(jScrollPane2);
+        jScrollPane2.setBounds(-2, 10, 470, 100);
+
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/lada.png"))); // NOI18N
+        oldal1.add(jLabel24);
+        jLabel24.setBounds(40, 130, 184, 130);
 
-        jButton8.setText("66. oldalra");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
+        gomb66.setBackground(new java.awt.Color(102, 102, 102));
+        gomb66.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb66.setForeground(new java.awt.Color(249, 222, 249));
+        gomb66.setText("66. oldalra");
+        gomb66.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
+                gomb66ActionPerformed(evt);
             }
         });
+        oldal1.add(gomb66);
+        gomb66.setBounds(280, 140, 130, 40);
 
-        jButton9.setText("270. oldalra");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
+        gomb270.setBackground(new java.awt.Color(102, 102, 102));
+        gomb270.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb270.setForeground(new java.awt.Color(249, 222, 249));
+        gomb270.setText("270. oldalra");
+        gomb270.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
+                gomb270ActionPerformed(evt);
             }
         });
+        oldal1.add(gomb270);
+        gomb270.setBounds(280, 200, 130, 40);
 
-        javax.swing.GroupLayout oldal1Layout = new javax.swing.GroupLayout(oldal1);
-        oldal1.setLayout(oldal1Layout);
-        oldal1Layout.setHorizontalGroup(
-            oldal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(oldal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal1Layout.createSequentialGroup()
-                        .addComponent(jScrollPane2)
-                        .addContainerGap())
-                    .addGroup(oldal1Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(jLabel24)
-                        .addGap(54, 54, 54)
-                        .addGroup(oldal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(86, Short.MAX_VALUE))))
-        );
-        oldal1Layout.setVerticalGroup(
-            oldal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(oldal1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal1Layout.createSequentialGroup()
-                        .addGap(31, 31, 31)
-                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton9, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(oldal1Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel24)))
-                .addContainerGap(23, Short.MAX_VALUE))
-        );
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel33.setText("jLabel33");
+        oldal1.add(jLabel33);
+        jLabel33.setBounds(0, 0, 510, 340);
 
         jatek.addTab("1. oldal", oldal1);
 
         oldal66.setBackground(new java.awt.Color(51, 51, 255));
+        oldal66.setLayout(null);
 
         jTextArea3.setEditable(false);
         jTextArea3.setColumns(20);
@@ -550,99 +493,46 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jTextArea3.setText("Néhány perc gyaloglás után egy elágazáshoz érsz az alagútban. Egy, a \nfalra festett fehér nyíl nyugatfelé mutat. A földön nedves lábnyomok \njelzik, merre haladtak az előtted járók. Nehéz biztosan megmondani, \nde úgy tűnik, hogy három közülük a nyíl irányába halad, míg egyikük \núgy döntött, hogy keletnek megy. Ha nyugat felé kívánsz menni, \nlapozz a 293-ra. Ha keletnek, lapozz a 56-re.");
         jScrollPane3.setViewportView(jTextArea3);
 
-        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/labnyom.png"))); // NOI18N
+        oldal66.add(jScrollPane3);
+        jScrollPane3.setBounds(0, 10, 470, 116);
 
-        jButton10.setText("56. oldalra");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/labnyom.png"))); // NOI18N
+        oldal66.add(jLabel25);
+        jLabel25.setBounds(50, 160, 165, 110);
+
+        gomb56.setBackground(new java.awt.Color(102, 102, 102));
+        gomb56.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb56.setForeground(new java.awt.Color(249, 222, 249));
+        gomb56.setText("56. oldalra");
+        gomb56.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
+                gomb56ActionPerformed(evt);
             }
         });
+        oldal66.add(gomb56);
+        gomb56.setBounds(280, 170, 120, 35);
 
-        jButton11.setText("293. oldalra");
+        gomb293.setBackground(new java.awt.Color(102, 102, 102));
+        gomb293.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb293.setForeground(new java.awt.Color(249, 222, 249));
+        gomb293.setText("293. oldalra");
+        gomb293.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb293ActionPerformed(evt);
+            }
+        });
+        oldal66.add(gomb293);
+        gomb293.setBounds(280, 220, 120, 32);
 
-        javax.swing.GroupLayout oldal66Layout = new javax.swing.GroupLayout(oldal66);
-        oldal66.setLayout(oldal66Layout);
-        oldal66Layout.setHorizontalGroup(
-            oldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal66Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(oldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 449, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(oldal66Layout.createSequentialGroup()
-                        .addGap(6, 6, 6)
-                        .addComponent(jLabel25)
-                        .addGap(76, 76, 76)
-                        .addGroup(oldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(15, Short.MAX_VALUE))
-        );
-        oldal66Layout.setVerticalGroup(
-            oldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal66Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(oldal66Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal66Layout.createSequentialGroup()
-                        .addComponent(jLabel25)
-                        .addContainerGap(15, Short.MAX_VALUE))
-                    .addGroup(oldal66Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton10, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton11, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(21, 21, 21))))
-        );
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel13.setText("jLabel13");
+        oldal66.add(jLabel13);
+        jLabel13.setBounds(0, 0, 470, 340);
 
         jatek.addTab("66. oldal", oldal66);
 
-        oldal270.setBackground(new java.awt.Color(51, 51, 255));
-
-        jTextArea4.setEditable(false);
-        jTextArea4.setColumns(20);
-        jTextArea4.setRows(5);
-        jTextArea4.setText("A doboz teteje könnyedén nyílik. Benne két aranypénzt találsz, és egy üzenetet, \namely egy kis pergamenen neked szól. Előbb zsebre vágod az aranyakat, \naztán elolvasod az üzenetet: - „Jól tetted. Legalább volt annyi eszed, hogy \nmegállj és elfogadd az ajándékot. Most azt tanácsolom neked, hogy keress \nés használj különféle tárgyakat, ha sikerrel akarsz áthaladni \nHalállabirintusomon.” Azaláírás Szukumvit. Megjegyzed a tanácsot, \napródarabokra téped a pergament, és tovább mészészak felé. Lapozz a 66-ra.");
-        jScrollPane4.setViewportView(jTextArea4);
-
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/erme.png"))); // NOI18N
-
-        jButton12.setText("66. oldalra");
-
-        javax.swing.GroupLayout oldal270Layout = new javax.swing.GroupLayout(oldal270);
-        oldal270.setLayout(oldal270Layout);
-        oldal270Layout.setHorizontalGroup(
-            oldal270Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal270Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
-            .addGroup(oldal270Layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addComponent(jLabel26)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(87, 87, 87))
-        );
-        oldal270Layout.setVerticalGroup(
-            oldal270Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal270Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(oldal270Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal270Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel26))
-                    .addGroup(oldal270Layout.createSequentialGroup()
-                        .addGap(41, 41, 41)
-                        .addComponent(jButton12, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(25, Short.MAX_VALUE))
-        );
-
-        jatek.addTab("270. oldal", oldal270);
-
         oldal56.setBackground(new java.awt.Color(51, 51, 255));
+        oldal56.setLayout(null);
 
         jTextArea5.setEditable(false);
         jTextArea5.setColumns(20);
@@ -650,49 +540,46 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jTextArea5.setText("Látod, hogy az akadály egy széles, barna, sziklaszerű tárgy. Megérinted, és \nmeglepve tapasztalod, hogy lágy, szivacsszerű. Ha át szeretnél mászni rajta, \nlapozz a 373-ra. Ha ketté akarod vágni a kardoddal, lapozz a 215-re.");
         jScrollPane5.setViewportView(jTextArea5);
 
+        oldal56.add(jScrollPane5);
+        jScrollPane5.setBounds(0, 10, 470, 100);
+
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/szikla.png"))); // NOI18N
+        oldal56.add(jLabel27);
+        jLabel27.setBounds(40, 120, 200, 143);
 
-        jButton13.setText("215. oldalra");
+        gomb215.setBackground(new java.awt.Color(102, 102, 102));
+        gomb215.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb215.setForeground(new java.awt.Color(249, 222, 249));
+        gomb215.setText("215. oldalra");
+        gomb215.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb215ActionPerformed(evt);
+            }
+        });
+        oldal56.add(gomb215);
+        gomb215.setBounds(290, 140, 120, 34);
 
-        jButton14.setText("373. oldalra");
+        gomb373.setBackground(new java.awt.Color(102, 102, 102));
+        gomb373.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb373.setForeground(new java.awt.Color(249, 222, 249));
+        gomb373.setText("373. oldalra");
+        gomb373.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb373ActionPerformed(evt);
+            }
+        });
+        oldal56.add(gomb373);
+        gomb373.setBounds(290, 200, 120, 37);
 
-        javax.swing.GroupLayout oldal56Layout = new javax.swing.GroupLayout(oldal56);
-        oldal56.setLayout(oldal56Layout);
-        oldal56Layout.setHorizontalGroup(
-            oldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal56Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(oldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(oldal56Layout.createSequentialGroup()
-                        .addComponent(jLabel27)
-                        .addGap(87, 87, 87)
-                        .addGroup(oldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton14, javax.swing.GroupLayout.DEFAULT_SIZE, 101, Short.MAX_VALUE)
-                            .addComponent(jButton13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-        oldal56Layout.setVerticalGroup(
-            oldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal56Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(oldal56Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal56Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel27)
-                        .addContainerGap(12, Short.MAX_VALUE))
-                    .addGroup(oldal56Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton13, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(26, 26, 26)
-                        .addComponent(jButton14, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(32, 32, 32))))
-        );
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel14.setText("jLabel14");
+        oldal56.add(jLabel14);
+        jLabel14.setBounds(0, 0, 470, 340);
 
         jatek.addTab("56. oldal", oldal56);
 
         oldal215.setBackground(new java.awt.Color(51, 51, 255));
+        oldal215.setLayout(null);
 
         jTextArea6.setEditable(false);
         jTextArea6.setColumns(20);
@@ -700,47 +587,186 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jTextArea6.setText("Kardod könnyedén áthatol a spóragolyó vékonykülső burkán. Sűrű barna \nspórafelhő csap ki a golyóból, és körülvesz. Némelyik spóra a bőrödhöz tapad, \nés rettenetes viszketést okoz. Nagy daganatok nőnek az arcodon és karodon, \nés a bőröd mintha égne. 2 ÉLETERŐ pontot veszítesz. Vadul vakarózva átléped \na leeresztett golyót, és keletnek veszed az utad.");
         jScrollPane6.setViewportView(jTextArea6);
 
-        jButton15.setText("VÉGE!");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
+        oldal215.add(jScrollPane6);
+        jScrollPane6.setBounds(0, 10, 470, 120);
+
+        gombVege1.setBackground(new java.awt.Color(0, 0, 0));
+        gombVege1.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gombVege1.setForeground(new java.awt.Color(204, 0, 0));
+        gombVege1.setText("VÉGE!");
+        gombVege1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
+                gombVege1ActionPerformed(evt);
             }
         });
+        oldal215.add(gombVege1);
+        gombVege1.setBounds(290, 190, 124, 62);
 
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/betegseg.png"))); // NOI18N
+        oldal215.add(jLabel28);
+        jLabel28.setBounds(40, 170, 167, 103);
 
-        javax.swing.GroupLayout oldal215Layout = new javax.swing.GroupLayout(oldal215);
-        oldal215.setLayout(oldal215Layout);
-        oldal215Layout.setHorizontalGroup(
-            oldal215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal215Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, oldal215Layout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jLabel28)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(74, 74, 74))
-        );
-        oldal215Layout.setVerticalGroup(
-            oldal215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal215Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 19, Short.MAX_VALUE)
-                .addGroup(oldal215Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel28)
-                    .addGroup(oldal215Layout.createSequentialGroup()
-                        .addGap(23, 23, 23)
-                        .addComponent(jButton15, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(45, 45, 45))
-        );
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel15.setText("jLabel15");
+        oldal215.add(jLabel15);
+        jLabel15.setBounds(0, 0, 470, 390);
 
         jatek.addTab("215. oldal", oldal215);
 
-        oldal373.setBackground(new java.awt.Color(51, 51, 255));
+        oldal270.setBackground(new java.awt.Color(51, 51, 255));
+        oldal270.setLayout(null);
+
+        jTextArea4.setEditable(false);
+        jTextArea4.setColumns(20);
+        jTextArea4.setRows(5);
+        jTextArea4.setText("A doboz teteje könnyedén nyílik. Benne két aranypénzt találsz, és egy üzenetet, \namely egy kis pergamenen neked szól. Előbb zsebre vágod az aranyakat, \naztán elolvasod az üzenetet: - „Jól tetted. Legalább volt annyi eszed, hogy \nmegállj és elfogadd az ajándékot. Most azt tanácsolom neked, hogy keress \nés használj különféle tárgyakat, ha sikerrel akarsz áthaladni \nHalállabirintusomon.” Azaláírás Szukumvit. Megjegyzed a tanácsot, \napródarabokra téped a pergament, és tovább mészészak felé. Lapozz a 66-ra.");
+        jScrollPane4.setViewportView(jTextArea4);
+
+        oldal270.add(jScrollPane4);
+        jScrollPane4.setBounds(0, 10, 470, 140);
+
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/erme.png"))); // NOI18N
+        oldal270.add(jLabel26);
+        jLabel26.setBounds(40, 170, 182, 93);
+
+        gomb662.setBackground(new java.awt.Color(102, 102, 102));
+        gomb662.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb662.setForeground(new java.awt.Color(249, 222, 249));
+        gomb662.setText("66. oldalra");
+        gomb662.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb662ActionPerformed(evt);
+            }
+        });
+        oldal270.add(gomb662);
+        gomb662.setBounds(290, 190, 120, 39);
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel16.setText("jLabel16");
+        oldal270.add(jLabel16);
+        jLabel16.setBounds(0, 0, 470, 330);
+
+        jatek.addTab("270. oldal", oldal270);
+
+        oldal293.setBackground(new java.awt.Color(255, 255, 255));
+        oldal293.setLayout(null);
+
+        jTextArea8.setEditable(false);
+        jTextArea8.setColumns(20);
+        jTextArea8.setRows(5);
+        jTextArea8.setText("A három pár nedves lábnyomot követve az alagútnyugati elágazásában \nhamarosan egy újabb el-ágazáshoz érsz. Ha továbbmész nyugat felé a \nlábnyomokat követve, lapozz a 137-re. Ha inkább észak felé mész a \nharmadik pár lábnyom után, lapozz a 387-re.");
+        jScrollPane8.setViewportView(jTextArea8);
+
+        oldal293.add(jScrollPane8);
+        jScrollPane8.setBounds(10, 10, 440, 110);
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/elagazas.png"))); // NOI18N
+        oldal293.add(jLabel30);
+        jLabel30.setBounds(20, 140, 240, 120);
+
+        gomb137.setBackground(new java.awt.Color(102, 102, 102));
+        gomb137.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb137.setForeground(new java.awt.Color(249, 222, 249));
+        gomb137.setText("137. oldalra");
+        gomb137.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb137ActionPerformed(evt);
+            }
+        });
+        oldal293.add(gomb137);
+        gomb137.setBounds(290, 150, 130, 40);
+
+        gomb387.setBackground(new java.awt.Color(102, 102, 102));
+        gomb387.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gomb387.setForeground(new java.awt.Color(249, 222, 249));
+        gomb387.setText("387. oldalra");
+        gomb387.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gomb387ActionPerformed(evt);
+            }
+        });
+        oldal293.add(gomb387);
+        gomb387.setBounds(290, 200, 130, 40);
+
+        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel44.setText("jLabel44");
+        oldal293.add(jLabel44);
+        jLabel44.setBounds(-6, -4, 480, 340);
+
+        jatek.addTab("293. oldal", oldal293);
+
+        oldal137.setBackground(new java.awt.Color(51, 51, 255));
+        oldal137.setLayout(null);
+
+        jTextArea9.setEditable(false);
+        jTextArea9.setColumns(20);
+        jTextArea9.setRows(5);
+        jTextArea9.setText("Ahogy végigmész az alagúton, csodálkozva látod, hogy egy jókora \nvasharang csüng alá a boltozatról.");
+        jScrollPane9.setViewportView(jTextArea9);
+
+        oldal137.add(jScrollPane9);
+        jScrollPane9.setBounds(-4, 6, 480, 90);
+
+        gombVege3.setBackground(new java.awt.Color(0, 0, 0));
+        gombVege3.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gombVege3.setForeground(new java.awt.Color(204, 0, 0));
+        gombVege3.setText("VÉGE!");
+        gombVege3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                gombVege3ActionPerformed(evt);
+            }
+        });
+        oldal137.add(gombVege3);
+        gombVege3.setBounds(290, 180, 124, 62);
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/harang.png"))); // NOI18N
+        oldal137.add(jLabel31);
+        jLabel31.setBounds(50, 130, 166, 155);
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel17.setText("jLabel17");
+        oldal137.add(jLabel17);
+        jLabel17.setBounds(0, 0, 470, 330);
+
+        jatek.addTab("137. oldal", oldal137);
+
+        oldal387.setBackground(new java.awt.Color(51, 51, 255));
+        oldal387.setLayout(null);
+
+        jTextArea10.setEditable(false);
+        jTextArea10.setColumns(20);
+        jTextArea10.setRows(5);
+        jTextArea10.setText("Hallod, hogy elölről súlyos lépések közelednek. Egy széles, állatbőrökbe \nöltözött, kőbaltás, primitívlény lép elő. Ahogy meglát, morog, a földre köp, \nmajd a kőbaltát felemelve közeledik, és mindennek kinéz, csak \nbarátságosnak nem. Előhúzod kardodat, és felkészülsz, hogy megküzdj a \nBarlangi Emberrel.\nBarlangi Ember ÜGYESSÉG 7 ÉLETERŐ 7");
+        jScrollPane10.setViewportView(jTextArea10);
+
+        oldal387.add(jScrollPane10);
+        jScrollPane10.setBounds(6, 6, 450, 116);
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/barlang.png"))); // NOI18N
+        oldal387.add(jLabel32);
+        jLabel32.setBounds(20, 150, 255, 136);
+
+        jButton1.setBackground(new java.awt.Color(0, 153, 153));
+        jButton1.setFont(new java.awt.Font("Snap ITC", 0, 14)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("HARC!!!");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        oldal387.add(jButton1);
+        jButton1.setBounds(320, 190, 100, 50);
+
+        jLabel42.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel42.setText("jLabel42");
+        oldal387.add(jLabel42);
+        jLabel42.setBounds(0, 0, 480, 330);
+
+        jatek.addTab("387. oldal", oldal387);
+
+        oldal373.setBackground(new java.awt.Color(255, 255, 255));
+        oldal373.setLayout(null);
 
         jTextArea7.setEditable(false);
         jTextArea7.setColumns(20);
@@ -748,253 +774,113 @@ public class HalalLabirintus extends javax.swing.JFrame {
         jTextArea7.setText("Fölmászol a lágy sziklára, attól tartasz, hogy bár-melyik pillanatban elnyelhet. \nNehéz átvergődni rajta, mert puha anyagában alig tudod a lábadat emelni, \nde végül átvergődsz rajta. Megkönnyebbülten érsz újra szilárd talajra, és \nfordulsz kelet felé.");
         jScrollPane7.setViewportView(jTextArea7);
 
-        jButton16.setText("VÉGE!");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
+        oldal373.add(jScrollPane7);
+        jScrollPane7.setBounds(0, 10, 470, 96);
+
+        gombVege2.setBackground(new java.awt.Color(0, 0, 0));
+        gombVege2.setFont(new java.awt.Font("Snap ITC", 0, 12)); // NOI18N
+        gombVege2.setForeground(new java.awt.Color(204, 0, 0));
+        gombVege2.setText("VÉGE!");
+        gombVege2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
+                gombVege2ActionPerformed(evt);
             }
         });
+        oldal373.add(gombVege2);
+        gombVege2.setBounds(310, 170, 124, 62);
 
-        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/sziklavege.png"))); // NOI18N
+        jLabel29.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/ko.PNG"))); // NOI18N
+        oldal373.add(jLabel29);
+        jLabel29.setBounds(30, 140, 240, 130);
 
-        javax.swing.GroupLayout oldal373Layout = new javax.swing.GroupLayout(oldal373);
-        oldal373.setLayout(oldal373Layout);
-        oldal373Layout.setHorizontalGroup(
-            oldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal373Layout.createSequentialGroup()
-                .addGroup(oldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal373Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(oldal373Layout.createSequentialGroup()
-                        .addGap(38, 38, 38)
-                        .addComponent(jLabel29)
-                        .addGap(72, 72, 72)
-                        .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-        oldal373Layout.setVerticalGroup(
-            oldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal373Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(oldal373Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal373Layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel29)
-                        .addContainerGap(34, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, oldal373Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton16, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(50, 50, 50))))
-        );
+        jLabel43.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/kezdolap.jpg"))); // NOI18N
+        jLabel43.setText("jLabel43");
+        oldal373.add(jLabel43);
+        jLabel43.setBounds(0, 0, 480, 330);
 
         jatek.addTab("373. oldal", oldal373);
 
-        oldal293.setBackground(new java.awt.Color(51, 51, 255));
-
-        jTextArea8.setColumns(20);
-        jTextArea8.setRows(5);
-        jTextArea8.setText("A három pár nedves lábnyomot követve az alagútnyugati elágazásában \nhamarosan egy újabb el-ágazáshoz érsz. Ha továbbmész nyugat felé a \nlábnyomokat követve, lapozz a 137-re. Ha inkább észak felé mész a \nharmadik pár lábnyom után, lapozz a 387-re.");
-        jScrollPane8.setViewportView(jTextArea8);
-
-        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/elagazas.png"))); // NOI18N
-
-        jButton17.setText("137. oldalra");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
-            }
-        });
-
-        jButton18.setText("387. oldalra");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout oldal293Layout = new javax.swing.GroupLayout(oldal293);
-        oldal293.setLayout(oldal293Layout);
-        oldal293Layout.setHorizontalGroup(
-            oldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal293Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(oldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal293Layout.createSequentialGroup()
-                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(14, Short.MAX_VALUE))
-                    .addGroup(oldal293Layout.createSequentialGroup()
-                        .addComponent(jLabel30)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(oldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jButton17, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jButton18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(48, 48, 48))))
-        );
-        oldal293Layout.setVerticalGroup(
-            oldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal293Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(oldal293Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(oldal293Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel30))
-                    .addGroup(oldal293Layout.createSequentialGroup()
-                        .addGap(29, 29, 29)
-                        .addComponent(jButton17, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jButton18, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
-
-        jatek.addTab("293. oldal", oldal293);
-
-        oldal137.setBackground(new java.awt.Color(51, 51, 255));
-
-        jTextArea9.setColumns(20);
-        jTextArea9.setRows(5);
-        jTextArea9.setText("Ahogy végigmész az alagúton, csodálkozva látod, hogy egy jókora \nvasharang csüng alá a boltozatról.");
-        jScrollPane9.setViewportView(jTextArea9);
-
-        jButton19.setText("VÉGE!");
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
-            }
-        });
-
-        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/harang.png"))); // NOI18N
-
-        javax.swing.GroupLayout oldal137Layout = new javax.swing.GroupLayout(oldal137);
-        oldal137.setLayout(oldal137Layout);
-        oldal137Layout.setHorizontalGroup(
-            oldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal137Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(14, Short.MAX_VALUE))
-            .addGroup(oldal137Layout.createSequentialGroup()
-                .addGap(41, 41, 41)
-                .addComponent(jLabel31)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(64, 64, 64))
-        );
-        oldal137Layout.setVerticalGroup(
-            oldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal137Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(4, 4, 4)
-                .addGroup(oldal137Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel31)
-                    .addGroup(oldal137Layout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(jButton19, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(8, Short.MAX_VALUE))
-        );
-
-        jatek.addTab("137. oldal", oldal137);
-
-        oldal387.setBackground(new java.awt.Color(51, 51, 255));
-
-        jTextArea10.setColumns(20);
-        jTextArea10.setRows(5);
-        jTextArea10.setText("Hallod, hogy elölről súlyos lépések közelednek. Egy széles, állatbőrökbe \nöltözött, kőbaltás, primitívlény lép elő. Ahogy meglát, morog, a földre köp, \nmajd a kőbaltát felemelve közeledik, és mindennek kinéz, csak \nbarátságosnak nem. Előhúzod kardodat, és felkészülsz, hogy megküzdj a \nBarlangi Emberrel.\nBarlangi Ember ÜGYESSÉG 7 ÉLETERŐ 7");
-        jScrollPane10.setViewportView(jTextArea10);
-
-        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/halallabirintus/kepek/barlang.png"))); // NOI18N
-
-        javax.swing.GroupLayout oldal387Layout = new javax.swing.GroupLayout(oldal387);
-        oldal387.setLayout(oldal387Layout);
-        oldal387Layout.setHorizontalGroup(
-            oldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal387Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(oldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 450, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel32))
-                .addContainerGap(14, Short.MAX_VALUE))
-        );
-        oldal387Layout.setVerticalGroup(
-            oldal387Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(oldal387Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel32)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        jatek.addTab("387. oldal", oldal387);
-
         getContentPane().add(jatek);
-        jatek.setBounds(0, 0, 470, 320);
+        jatek.setBounds(0, -60, 470, 380);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void kilepesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_kilepesActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_kilepesActionPerformed
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton2ActionPerformed
+    private void gomb66ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb66ActionPerformed
+        jatek.setSelectedIndex(4);
+    }//GEN-LAST:event_gomb66ActionPerformed
 
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton8ActionPerformed
+    private void gomb270ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb270ActionPerformed
+        jatek.setSelectedIndex(5);
+    }//GEN-LAST:event_gomb270ActionPerformed
 
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
+    private void gomb56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb56ActionPerformed
+       jatek.setSelectedIndex(6);
+    }//GEN-LAST:event_gomb56ActionPerformed
 
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
-
-    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+    private void gombVege1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gombVege1ActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton15ActionPerformed
+    }//GEN-LAST:event_gombVege1ActionPerformed
 
-    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+    private void gombVege2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gombVege2ActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton16ActionPerformed
+    }//GEN-LAST:event_gombVege2ActionPerformed
 
-    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton17ActionPerformed
+    private void gomb137ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb137ActionPerformed
+        jatek.setSelectedIndex(10);
+    }//GEN-LAST:event_gomb137ActionPerformed
 
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
+    private void gomb387ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb387ActionPerformed
+        jatek.setSelectedIndex(11);
+    }//GEN-LAST:event_gomb387ActionPerformed
 
-    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+    private void gombVege3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gombVege3ActionPerformed
         System.exit(0);
-    }//GEN-LAST:event_jButton19ActionPerformed
+    }//GEN-LAST:event_gombVege3ActionPerformed
+
+    private void startActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startActionPerformed
+        jatek.setSelectedIndex(1);
+    }//GEN-LAST:event_startActionPerformed
+
+    private void tovabbActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tovabbActionPerformed
+        jatek.setSelectedIndex(2);
+    }//GEN-LAST:event_tovabbActionPerformed
+
+    private void harcosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_harcosActionPerformed
+        jatek.setSelectedIndex(3);
+    }//GEN-LAST:event_harcosActionPerformed
+
+    private void vadaszActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vadaszActionPerformed
+        jatek.setSelectedIndex(3);
+    }//GEN-LAST:event_vadaszActionPerformed
+
+    private void boszorkanyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boszorkanyActionPerformed
+        jatek.setSelectedIndex(3);
+    }//GEN-LAST:event_boszorkanyActionPerformed
+
+    private void gomb662ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb662ActionPerformed
+        jatek.setSelectedIndex(4);
+    }//GEN-LAST:event_gomb662ActionPerformed
+
+    private void gomb293ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb293ActionPerformed
+        jatek.setSelectedIndex(9);
+    }//GEN-LAST:event_gomb293ActionPerformed
+
+    private void gomb215ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb215ActionPerformed
+        jatek.setSelectedIndex(7);
+    }//GEN-LAST:event_gomb215ActionPerformed
+
+    private void gomb373ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb373ActionPerformed
+        jatek.setSelectedIndex(8);
+    }//GEN-LAST:event_gomb373ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        jatek.setSelectedIndex(1);
+        JOptionPane.showMessageDialog(rootPane, "Harc kezdete!");
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
-        jatek.setSelectedIndex(2);
-    }//GEN-LAST:event_jButton20ActionPerformed
-
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
-        jatek.setSelectedIndex(3);
-    }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        jatek.setSelectedIndex(3);
-    }//GEN-LAST:event_jButton6ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        jatek.setSelectedIndex(3);
-    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1032,26 +918,21 @@ public class HalalLabirintus extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton boszorkany;
+    private javax.swing.JButton gomb137;
+    private javax.swing.JButton gomb215;
+    private javax.swing.JButton gomb270;
+    private javax.swing.JButton gomb293;
+    private javax.swing.JButton gomb373;
+    private javax.swing.JButton gomb387;
+    private javax.swing.JButton gomb56;
+    private javax.swing.JButton gomb66;
+    private javax.swing.JButton gomb662;
+    private javax.swing.JButton gombVege1;
+    private javax.swing.JButton gombVege2;
+    private javax.swing.JButton gombVege3;
+    private javax.swing.JButton harcos;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
-    private javax.swing.JButton jButton12;
-    private javax.swing.JButton jButton13;
-    private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
-    private javax.swing.JButton jButton16;
-    private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
-    private javax.swing.JButton jButton19;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
-    private javax.swing.JButton jButton7;
-    private javax.swing.JButton jButton8;
-    private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1078,15 +959,27 @@ public class HalalLabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
     private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel4;
-    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane2;
@@ -1110,6 +1003,7 @@ public class HalalLabirintus extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jatek;
     private javax.swing.JPanel karakterek;
     private javax.swing.JPanel kezdolap;
+    private javax.swing.JButton kilepes;
     private javax.swing.JPanel oldal1;
     private javax.swing.JPanel oldal137;
     private javax.swing.JPanel oldal215;
@@ -1119,6 +1013,9 @@ public class HalalLabirintus extends javax.swing.JFrame {
     private javax.swing.JPanel oldal387;
     private javax.swing.JPanel oldal56;
     private javax.swing.JPanel oldal66;
+    private javax.swing.JButton start;
     private javax.swing.JPanel stat;
+    private javax.swing.JButton tovabb;
+    private javax.swing.JButton vadasz;
     // End of variables declaration//GEN-END:variables
 }
